@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="872.0" prefWidth="1171.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.assignment_3.WordGuesserController">
+   <children>
+      <VBox prefHeight="101.0" prefWidth="1171.0">
+         <children>
+            <Label maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="82.0" prefWidth="1171.0" text="                                                   Kevin's Word Game">
+               <font>
+                  <Font name="System Bold Italic" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox prefHeight="166.0" prefWidth="1171.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#onPlayButtonClick" prefHeight="113.0" prefWidth="225.0" text="Play Game">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="475.0" top="25.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <VBox prefHeight="185.0" prefWidth="1171.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#onHowToPlayButtonClick" prefHeight="113.0" prefWidth="224.0" text="how to play">
+               <VBox.margin>
+                  <Insets left="475.0" top="25.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <VBox prefHeight="149.0" prefWidth="1171.0">
+         <children>
+            <Label fx:id="EnterWord" alignment="CENTER" prefHeight="125.0" prefWidth="1171.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox prefHeight="128.0" prefWidth="1171.0">
+         <children>
+            <Label fx:id="RedWords" alignment="CENTER" prefHeight="157.0" prefWidth="1171.0" textFill="#e40f0f">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox prefHeight="125.0" prefWidth="1171.0">
+         <children>
+            <Label fx:id="BlueWords" alignment="CENTER" prefHeight="330.0" prefWidth="1157.0" textFill="#1a20d7">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox prefHeight="125.0" prefWidth="1171.0">
+         <children>
+            <Label fx:id="GreenWords" alignment="CENTER" prefHeight="113.0" prefWidth="1126.0" textFill="#3cce48">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children></VBox>
+   </children>
+</VBox>
